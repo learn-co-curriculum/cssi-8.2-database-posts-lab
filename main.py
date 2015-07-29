@@ -33,14 +33,14 @@ JINJA_ENVIRONMENT = jinja2.Environment(
     extensions=['jinja2.ext.autoescape'],
     autoescape=True)
 
-# Define a Student model for the Datastore
+# Define a Post model for the Datastore
 class Post(ndb.Model):
 
 
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        # Get all of the student data from the datastore
+        # Get all of the post data from the datastore
 
         # Pass the data to the template
         template_values = {
@@ -52,7 +52,7 @@ class MainHandler(webapp2.RequestHandler):
     def post(self):
         # Get the post title and content from the form
 
-        # Create a new Student and put it in the datastore
+        # Create a new Post and put it in the datastore
 
         # Redirect to the main handler that will render the template
         self.redirect('/')

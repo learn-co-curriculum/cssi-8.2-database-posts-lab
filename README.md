@@ -26,4 +26,4 @@ This lab will help you create your own Blog backend! After this lab you will be 
 + Validate content and user name.
 + Add an email field
 
-<a href='https://learn.co/lessons/cssi-8.2-database-posts-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/cssi-8.2-database-posts-lab' title='Python Database Blog Posts Lab'>Python Database Blog Posts Lab</a> on Learn.co and start learning to code for free.</p>
